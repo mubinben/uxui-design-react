@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 1px #d3d3d3;
+    border-radius: 5px;
+    padding: 10px 10px 10px 15px;
+    width: 30%;
+}
+
+.copy-icon {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.before-copy {
+    color: gray;
+}
+
+.before-copy:hover {
+    background-color: #f5f5f5;
+}
+
+.after-copy {
+    color: green;
+}
+
+.after-copy:hover {
+    background-color: #f5f5f5;
+}
