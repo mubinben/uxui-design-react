@@ -1,0 +1,43 @@
+.loading-btn {
+    cursor: pointer;
+    padding: 5px 20px;
+    width: 150px;
+    height: 40px;
+
+    border-style: solid;
+    border-color: salmon;
+    border-width: 1px;
+    border-radius: 8px;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-text {
+    color: salmon;
+    font-size: 1.5em;
+    font-family: 'Courier';
+}
+
+.loading-circle {
+    width: 18px;
+    height: 18px;
+    border-width: 2px;
+    border-color: salmon;
+    border-style: solid;
+    border-radius: 45px;
+    border-top-color: transparent;
+
+    animation: loading-spiner 1s linear infinite;
+}
+
+@keyframes loading-spiner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
