@@ -1,0 +1,7 @@
+.component-name {
+    cursor: pointer;
+}
+
+.component-name:hover {
+    color: blue;
+}
