@@ -13,16 +13,18 @@ const Clipboard = () => {
     }
 
     return (
-        <div className='container'>
+        <div className='clipboard-container'>
             <div>
                 {text}
             </div>
             <div>
                 {
                     isCopy ?
-                    <i class="bi bi-clipboard-check copy-icon after-copy" onClick={handleClickCopy}></i>
+                    <i className="bi bi-clipboard-check clipboard-icon-copy clipboard-after-copy"
+                        onClick={handleClickCopy}></i>
                     :
-                    <i class="bi bi-clipboard copy-icon before-copy" onClick={handleClickCopy}></i>
+                    <i className="bi bi-clipboard clipboard-icon-copy clipboard-before-copy"
+                        onClick={handleClickCopy}></i>
                 }
             </div>
         </div>
