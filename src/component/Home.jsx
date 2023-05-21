@@ -12,8 +12,8 @@ const Home = () => {
             pages.filter(page => {
                 return page.name !== 'home'
             })
-            .map(page => (
-                <li className="component-name" onClick={() => navigate(page.path)}>
+            .map((page, index) => (
+                <li key={index} className="component-name" onClick={() => navigate(page.path)}>
                   {page.name}
                 </li>
             ))

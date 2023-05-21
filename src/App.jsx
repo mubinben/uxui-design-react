@@ -6,8 +6,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         {
-          pages.map(page => (
-            <Route path={page.path} element={page.element}/>
+          pages.map((page, index) => (
+            <Route key={index} path={page.path} element={page.element} />
           ))
         }
       </Routes>
