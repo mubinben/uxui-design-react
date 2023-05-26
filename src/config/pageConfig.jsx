@@ -2,6 +2,7 @@ import Home from "../component/Home"
 import Clipboard from "../component/Clipboard"
 import LoadingButton from "../component/LoadingButton"
 import Login from "../component/Login"
+import Dropdown from "../component/Dropdown"
 
 const pages = [
     {
@@ -23,6 +24,11 @@ const pages = [
         name: 'login',
         path: '/login',
         element: <Login />
+    },
+    {
+        name: 'dropdown',
+        path: '/dropdown',
+        element: <Dropdown />
     }
 ]
 
