@@ -7,10 +7,10 @@ Project for demo UX/UI design using React.
 1. Clone the project.
 ```sh
 # using SSH
-git clone ...
+git clone git@github.com:mubinben/uxui-design-react.git
 
 # using HTTPS
-git clone ...
+git clone https://github.com/mubinben/uxui-design-react.git
 ```
 2. Into project.
 ```sh
