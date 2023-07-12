@@ -10,6 +10,12 @@
     padding: 10px 0px;
 }
 
+.dropdown-arrow-icon {
+    font-size: 0.8em;
+    margin-left: 5px;
+    
+}
+
 .dropdown-menu {
     overflow-y: scroll;
     height: 300px;

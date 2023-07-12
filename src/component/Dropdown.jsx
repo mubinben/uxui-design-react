@@ -39,8 +39,9 @@ const Dropdown = () => {
 
     return (
         <div className='dropdown-container' onMouseEnter={handleShowMenu} onMouseLeave={handleSHideMenu}>
-            <div className='dropdown-selected' >
+            <div className='dropdown-selected'>
                 {selected}
+                <i className="bi bi-chevron-down dropdown-arrow-icon"></i>
             </div>
             <div className={`dropdown-menu ${cssDisplay}`}>
                 {
